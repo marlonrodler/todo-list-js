@@ -1,0 +1,29 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="todo-container-form">
+        <div class="todo-title">
+            <h1>To-Do List</h1>
+        </div>
+        <div class="todo-form">
+            <input type="text" id="todo" name="todo" placeholder="Enter your todo">
+            <button type="submit" onclick="addTodoList();">Add</button>
+        </div>
+    </section>
+    <section class="todo-container-list">
+        <div id="todoList" class="todo-list"></div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
